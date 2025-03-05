@@ -1,0 +1,72 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: word-wrap;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eff2f7;
+    font-family: "Merienda", serif;
+    font-family: "Nunito", serif;
+    line-height: 1.5rem;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #212529;
+    --tertiaryColor: #343a40;
+    --fourthColor: #fff1d5;
+    --darkColor: #ff9d00;
+    --lightColor: #ffffff;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    --ffPrimary: "Merienda", serif;
+    --ffSecondary: "Nunito", serif;
+}

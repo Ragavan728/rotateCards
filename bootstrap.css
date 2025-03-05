@@ -1,0 +1,25 @@
+.heading img {
+    width: 18rem;
+}
+
+.heading h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    color: var(--secondaryColor);
+}
+
+.card-img-top {
+    width: 10rem;
+}
+
+.card-title {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    color: var(--secondaryColor);
+}
+
+.card-text {
+    font-family: var(--ffSecondary);
+    font-size: 1.4rem;
+    color: var(--tertiaryColor);
+}
